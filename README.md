@@ -7,6 +7,8 @@ sloppy timing of the brew step.
 
 So, I wrote this silly timer app.
 
-(Really, this was more an exercise in learning more about React
-and CSS animations and SVG)
+This was more an exercise in learning more about React
+and CSS animations and SVG. Written using the fabulous nextjs, which allows
+for simple deployment using the 'now' command.
 
+[Make your own coffee here](https://vacuum-coffee-timer.now.sh/)
