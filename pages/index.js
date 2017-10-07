@@ -2,7 +2,7 @@ import Head from '../components/head'
 import Nav from '../components/nav'
 import Sound from 'react-sound'
 
-const countdown = 3;
+const countdownFrom = 90;
 
 const Cup = ({ label, onClick }) => {
   const lab = label.split(' ').map((w,i) => { return <tspan key={i} x={39 + i} dy={5}>{w}</tspan>});
@@ -237,7 +237,7 @@ export default class extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      current: countdown,
+      current: countdownFrom,
       label: 'Click To Brew!',
       state: 'ready',
     }
@@ -269,7 +269,7 @@ export default class extends React.Component {
           <div id="cup">
           {this.state.state === 'ready' &&
             <Cup onClick={() => {
-              this.setState({ state: 'counting', current: countdown });
+              this.setState({ state: 'counting', current: countdownFrom });
               const counter = setInterval(() => {
                 this.setState({ state: 'counting', current: this.state.current - 1});
                 if (this.state.current <= 0) {
