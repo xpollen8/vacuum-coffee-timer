@@ -1,5 +1,7 @@
 {
   "name": "vacuum-coffee-timer",
+  "description": "Simple React/animated SVG/Sound/nextjs coffee timer app.",
+  "author": "github@xpollen8.com",
   "scripts": {
     "dev": "next",
     "build": "next build",
