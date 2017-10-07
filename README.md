@@ -9,7 +9,7 @@ sloppy timing of the brew step.
 
 So, I wrote this silly timer app.
 
-This was more an exercise in learning more about React
+This was an exercise in learning more about React
 and CSS animations and SVG. Written using the fabulous nextjs, which allows
 for simple deployment using the 'now' command.
 
