@@ -2,7 +2,7 @@ import Head from './head'
 import Link from 'next/link'
 
 const links = [
-  { href: 'https://github.com/xpollen8/vacuum-brew-timer', label: 'Github' }
+  { href: 'https://github.com/xpollen8/vacuum-coffee-timer', label: 'Github' }
 ].map(link => {
   link.key = `nav-link-${link.href}-${link.label}`
   return link
