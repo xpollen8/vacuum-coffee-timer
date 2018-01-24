@@ -65,9 +65,9 @@ const Brew = ({ state }) => {
       .upper-bowl path {
       }
       @keyframes flame-moving {
-        0%   {transform: scale(1, 1.3)}
-        50%  {transform: scale(.8, 1.5)}
-        100% {transform: scale(1, 1.3)}
+        0%   {transform: scale(1, 1.13)}
+        50%  {transform: scale(.8, 1.15)}
+        100% {transform: scale(1, 1.13)}
       }
       @keyframes bubbles-moving {
         0%   {transform: translate(0, 0%)}
